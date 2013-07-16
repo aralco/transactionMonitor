@@ -12,18 +12,29 @@ Installation:
     have the transactionQueueDB created.
     2. After that make sure that “database.properties” file matches your databases configuration.
     3. Also make sure to check “query.properties” file, so that  location for sql scripts matches your local
-    configuration. Also be careful to set query.from_time and query.to_time values according to your sql queries.
+    configuration. Also be careful to set query.XXXX.from_time SEED values for each type of query. This will be used
+    just for the first running of TransactionMonitor.
     4. For sql script queries make sure that all of them have the names like {COMMENT.sql, EMAIL_HISTORY.sql, REPLY.sql,
     TELL_A_FRIEND.sql, IDEA.sql, TESTIMONIAL.sql, etc}. Each one representing a transaction type.
-    5. At this step all queries MUST replace from_time and to_time date values with @from_time and @to_time variables.
+    5. At this step all queries MUST replace date values with @from_time and @to_time variables.
     6. After that you should be ready to package the TransactionMonitor. To do it you should go to the terminal console
-    and under the folder “spigit” you must run the following commands:
+    and under the folder “transactionMonitor” you must run the following commands:
         - $mvn clean
         - $mvn package
-    7.	If succesfull a “target” folder will be created under spigit folder.
-    8.	Assuming you are still on “spigit” folder run the following command in order to run TransactionMonitor:
-    9.	From terminal console execute the following command to run TransactionMonitor:
+    7.	If execution of the above processes are successful, a “target” folder will be created under
+    transactionMonitor  folder.
+    8.	Assuming you are still on “transactionMonitor ” folder run the following command in order to run
+    TransactionMonitor:
         - $java –jar target/TransactionMonitor.one-jar.jar
+    9. In order to manually package a tarball file for production we must keep the following file structure:
+        - transactionMonitor (Folder)
+                |
+                |__ target (Folder)
+                |
+                |__ TransactionMonitor.one-jar.jar (Jar file)
+
+       Then you will be able to execute jar file as in previous step:
+        - $ java –jar target/ TransactionMonitor.one-jar.jar
     10.	At this point TransactionMonitor will retrieve data from citi and citiusers databases and will populate
     “transactionQueueDB”. TransactionQueue and TransactionQueryHistory tables will be populated:
 
