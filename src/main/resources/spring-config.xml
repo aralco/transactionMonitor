@@ -41,6 +41,14 @@
                 <prop key="hibernate.connection.SetBigStringTryClob">true</prop>
             </props>
         </property>
+        <property name="annotatedClasses">
+            <list>
+                <value>com.spigit.citi.model.ReconciliationReportLog</value>
+                <value>com.spigit.citi.model.TransactionQueryHistory</value>
+                <value>com.spigit.citi.model.TransactionQueue</value>
+            </list>
+        </property>
+
     </bean>
 
 

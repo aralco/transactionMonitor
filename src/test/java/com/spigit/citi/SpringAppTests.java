@@ -1,6 +1,6 @@
 package com.spigit.citi;
 
-import com.spigit.citi.service.TransactionMonitorService;
+import com.spigit.citi.service.Service;
 import junit.framework.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,10 +12,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration("classpath:spring-config.xml")
 public class SpringAppTests {
     @Autowired
-    private TransactionMonitorService transactionMonitorService;
+    private Service service;
 
     @Test
     public void testExecute()   {
-        Assert.assertNotNull(transactionMonitorService);
+        Assert.assertNotNull(service);
     }
 }

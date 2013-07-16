@@ -1,0 +1,72 @@
+2013-07-16 01:42:02 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a761fe: startup date [Tue Jul 16 01:42:02 BOT 2013]; root of context hierarchy
+2013-07-16 01:42:02 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2013-07-16 01:42:03 INFO  PropertySourcesPlaceholderConfigurer:177 - Loading properties file from class path resource [database.properties]
+2013-07-16 01:42:03 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@565c7f6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,queryFactory,dataSourceFROM,dataSource,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,transactionMonitorService,transactionQueueDao,transactionQueryHistoryDao,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2013-07-16 01:42:03 INFO  DriverManagerDataSource:153 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2013-07-16 01:42:03 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-07-16 01:42:03 INFO  Version:41 - HHH000412: Hibernate Core {4.1.3.Final}
+2013-07-16 01:42:03 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2013-07-16 01:42:03 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2013-07-16 01:42:03 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2013-07-16 01:42:03 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-07-16 01:42:03 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2013-07-16 01:42:04 INFO  DriverManagerDataSource:153 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2013-07-16 01:42:04 INFO  HibernateTransactionManager:256 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@7c41f227] of Hibernate SessionFactory for HibernateTransactionManager
+2013-07-16 01:42:04 INFO  TransactionMonitorService:41 - *************************TransactionMonitor*************************
+2013-07-16 01:42:04 INFO  TransactionMonitorService:45 - retrieving data for QueryType IDEA
+2013-07-16 01:42:07 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:08 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:42:09 INFO  TransactionMonitorService:45 - retrieving data for QueryType TELL_A_FRIEND
+2013-07-16 01:42:09 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:09 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:42:09 INFO  TransactionMonitorService:45 - retrieving data for QueryType TESTIMONIAL
+2013-07-16 01:42:09 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:09 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:42:09 INFO  TransactionMonitorService:45 - retrieving data for QueryType COMMENT
+2013-07-16 01:42:12 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:12 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:42:12 INFO  TransactionMonitorService:45 - retrieving data for QueryType REPLY
+2013-07-16 01:42:12 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:12 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:42:12 INFO  TransactionMonitorService:45 - retrieving data for QueryType REVIEW
+2013-07-16 01:42:13 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:13 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:42:13 INFO  TransactionMonitorService:45 - retrieving data for QueryType EMAIL_HISTORY
+2013-07-16 01:42:13 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:42:13 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:00 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a761fe: startup date [Tue Jul 16 01:43:00 BOT 2013]; root of context hierarchy
+2013-07-16 01:43:00 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2013-07-16 01:43:00 INFO  PropertySourcesPlaceholderConfigurer:177 - Loading properties file from class path resource [database.properties]
+2013-07-16 01:43:00 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da0225b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,queryFactory,dataSourceFROM,dataSource,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,transactionMonitorService,transactionQueueDao,transactionQueryHistoryDao,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2013-07-16 01:43:00 INFO  DriverManagerDataSource:153 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2013-07-16 01:43:01 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-07-16 01:43:01 INFO  Version:41 - HHH000412: Hibernate Core {4.1.3.Final}
+2013-07-16 01:43:01 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2013-07-16 01:43:01 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2013-07-16 01:43:01 INFO  Dialect:122 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2013-07-16 01:43:01 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-07-16 01:43:01 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2013-07-16 01:43:01 INFO  DriverManagerDataSource:153 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2013-07-16 01:43:01 INFO  HibernateTransactionManager:256 - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1344e858] of Hibernate SessionFactory for HibernateTransactionManager
+2013-07-16 01:43:01 INFO  TransactionMonitorService:41 - *************************TransactionMonitor*************************
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType IDEA
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType TESTIMONIAL
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType REVIEW
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType EMAIL_HISTORY
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType REPLY
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType COMMENT
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:45 - retrieving data for QueryType TELL_A_FRIEND
+2013-07-16 01:43:02 INFO  TransactionMonitorService:55 - adding record to TransactionQueryHistory table
+2013-07-16 01:43:02 INFO  TransactionMonitorService:68 - adding transactions to TransactionQueue table
