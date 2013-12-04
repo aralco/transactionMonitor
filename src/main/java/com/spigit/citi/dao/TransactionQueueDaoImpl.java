@@ -42,6 +42,7 @@ public class TransactionQueueDaoImpl implements TransactionQueueDao {
         int sequenceNumber =1;
         for(TransactionQueue transactionQueue : transactionQueueList)    {
             transactionQueue.setStatus(TransactionStatus.READY.name());
+            transactionQueue.setReported(Boolean.FALSE);
             transactionQueue.setUniqueID(formatter.format(date) + "_" + queryType.name() + "_" + sequenceNumber++);
             session.save(transactionQueue);
 

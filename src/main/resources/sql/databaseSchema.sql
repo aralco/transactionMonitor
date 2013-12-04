@@ -5,7 +5,7 @@
 # Project name:                                                          #
 # Author:                                                                #
 # Script type:           Database creation script                        #
-# Created on:            2013-06-19 12:40                                #
+# Created on:            2013-11-30 10:30                                #
 # ---------------------------------------------------------------------- #
 
 # ---------------------------------------------------------------------- #
@@ -34,6 +34,7 @@ CREATE TABLE `TransactionQueue` (
     `transmitTime` TIMESTAMP,
     `errorCondition` VARCHAR(500),
     `uniqueID` VARCHAR(100) NOT NULL,
+    `reported` BOOL NOT NULL DEFAULT false,
     CONSTRAINT `PK_TransactionQueue` PRIMARY KEY (`id`),
     CONSTRAINT `TUC_TransactionQueue_1` UNIQUE (`uniqueID`)
 );
