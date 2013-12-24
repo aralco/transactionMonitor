@@ -30,6 +30,7 @@ CREATE TABLE `TransactionQueue` (
     `date` TIMESTAMP NOT NULL DEFAULT 0,
     `body` BLOB,
     `title` VARCHAR(250),
+    `messageId` VARCHAR(500),
     `status` VARCHAR(250) NOT NULL DEFAULT 'READY',
     `transmitTime` TIMESTAMP,
     `errorCondition` VARCHAR(500),
