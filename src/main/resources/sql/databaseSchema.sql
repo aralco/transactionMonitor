@@ -27,7 +27,7 @@ CREATE TABLE `TransactionQueue` (
     `msgFrom` VARCHAR(250) NOT NULL,
     `msgTo` VARCHAR(250) NOT NULL,
     `subject` VARCHAR(250) NOT NULL,
-    `date` TIMESTAMP NOT NULL,
+    `date` TIMESTAMP NOT NULL DEFAULT 0,
     `body` BLOB,
     `title` VARCHAR(250),
     `status` VARCHAR(250) NOT NULL DEFAULT 'READY',
